@@ -1,0 +1,553 @@
+.body {
+    margin: 0;
+    position: absolute;
+}
+
+
+.container {
+    margin: 0px 150px;
+}
+
+.header {
+    background: url('../images/mp-bg1.png');
+    height: 1000vh;
+}
+
+.header-routes1 {
+    background: url('../images/маршруты.png');
+    height: 630.2vh;
+}
+
+.header-hotels {
+    background: url('../images/hotels-bg.png');
+    height: 734vh;
+}
+
+.header-eda {
+    background: url('../images/eda-bg.png');
+    height: 676vh;
+}
+
+.header-routes {
+    background: url('../images/marshruti1.png');
+    height: 1740.7vh;
+}
+
+.header-routes2 {
+    background: url('../images/marshruti2.png');
+    height: 2250.7vh;
+}
+
+.footer-image {
+    background: url('../images/footer.png');
+    height: 45vh;
+}
+
+.footer-vniz {
+    padding-top:150px;
+}
+
+.telo {
+    background: url('../images/header-bg (1) 3 (1).png');
+    height: 120vh;
+}
+
+.telo3 {
+    background: url('../images/topp.png');
+    height: 115vh;
+}
+
+.telo4 {
+    background: url('../images/topchik.png');
+    height: 100vh;
+}
+
+.text-header {
+    padding-bottom: 10px;
+}
+
+.telo1 {
+    background: url('../images/Slide 16_9 - 15 (7).png');
+    height: 115vh;
+}
+
+.header-logo {
+    margin-right: 200px;
+
+}
+
+
+.to-center {
+    margin: auto;
+    width: 50%;
+    padding-top: 190px;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.text-routes {
+    padding-top: 50px;
+    font-family: "Open Sans Condensed";
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.text-routes1 {
+    padding-top: 50px;
+    font-family: "Open Sans Condensed";
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+}
+
+.to-center1 {
+    margin: auto;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    font-size: 230px;
+    background: -webkit-linear-gradient(#fff, #FDE2B4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+
+.header-line {
+    padding-top: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.tg {
+    padding: 0px 15px;
+
+}
+
+.icons-footer {
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    padding-top: 350px;
+
+
+}
+
+.nav-item {
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 300px;
+
+}
+
+.text {
+    font-family: "Open Sans";
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 100px;
+
+}
+
+.text-sm {
+    font-family: "Open Sans";
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 400px;
+
+}
+
+.text10 {
+    font-family: "Open Sans Condensed";
+    font-size: 50px;
+    color: #142736;
+    font-weight: 700;
+
+    padding-left: 752px;
+}
+
+.text1 {
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 31px;
+    hyphens: auto;
+
+}
+
+.text11 {
+    font-family: "Open Sans";
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 50px;
+    hyphens: auto;
+
+}
+
+.text11-sm {
+    font-family: "Open Sans";
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 50px;
+    hyphens: auto;
+
+}
+
+.text11-smolensk {
+    font-family: "Open Sans";
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 50px;
+    hyphens: auto;
+
+}
+
+.smolinfo {
+    color: #142736;
+}
+
+.text111 {
+    font-family: "Open Sans";
+    font-size: 40px;
+    color: #142736;
+    font-weight: 500;
+    padding-top: 50px;
+    hyphens: auto;
+
+}
+
+
+.text118 {
+    font-family: "Open Sans Condensed";
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 50px;
+    hyphens: auto;
+
+}
+
+.text1112 {
+    font-family: "Open Sans Condensed";
+    font-size: 40px;
+    color: #142736;
+    font-weight: 500;
+    padding-top: 50px;
+    hyphens: auto;
+    margin: 0 150px 0 494px;
+}
+
+.dubimage {
+    float: right;
+}
+
+.stenaimage {
+    float: right;
+}
+
+.chasiimage {
+    float: right;
+}
+
+.text1111 {
+    font-family: "Open Sans";
+    font-size: 60px;
+    color: #142736;
+    font-weight: 700;
+    padding-top: 100px;
+    text-align: right;
+
+
+}
+
+
+.text119 {
+    font-family: "Open Sans Condensed";
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 100px;
+
+}
+
+.map {
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.text11112 {
+    font-family: "Open Sans Condensed";
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 100px;
+
+}
+
+.text3 {
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    color: #142736;
+    font-weight: 500;
+    padding-top: 31px;
+}
+
+.text4 {
+    font-family: "Open Sans Condensed";
+    font-size: 50px;
+    color: #142736;
+    font-weight: 700;
+}
+
+.text5 {
+
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 31px;
+}
+
+.marsh1 {
+    padding-top: 600px;
+
+}
+
+.ma1 {
+    padding-top: 1190px;
+
+}
+
+.marshmp2 {
+    padding-top: 370px;
+}
+
+.marsh11 {
+    padding-top: 470px;
+
+}
+
+
+.marsh111 {
+    padding-top: 700px;
+
+}
+.marsh2 {
+    padding-top: 225px;
+}
+
+.marsh22 {
+    padding-top: 230px;
+}
+
+.marsh222 {
+    padding-top: 350px;
+}
+
+.text55 {
+
+    font-family: "Open Sans";
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 31px;
+}
+
+.sights-image {
+    float: right;
+
+}
+
+.routes-image {
+    padding-top: 45.56px;
+}
+
+.routes-image1 {
+    padding-top: 45.56px;
+    float: right;
+}
+
+.textandinfo {
+    padding-top: 700px;
+}
+
+.textandinfo1 {
+    padding-top: 1100px;
+}
+
+
+.text2 {
+    float: left;
+
+}
+
+.button {
+    border: solid;
+    color: #fff;
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    border-width: thin;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.btn {
+    float: right;
+    padding-top: 50px;
+}
+
+.text-glinka {
+
+    padding-top: 50px;
+    font-family: "Open Sans";
+    font-size: 200px;
+    color: #fff;
+    font-weight: 700;
+    float: left;
+
+}
+
+.text-marsh {
+
+    padding-top: 100px;
+    font-family: "Open Sans";
+    font-size: 200px;
+    color: #142736;
+    font-weight: 700;
+    float: left;
+
+}
+
+.text-smolensk {
+
+    padding-top: 100px;
+    font-family: "Open Sans";
+    font-size: 200px;
+    color: #fff;
+    font-weight: 700;
+    float: left;
+
+}
+
+.to-right-text {
+
+    float: right;
+}
+
+.text-glinka1 {
+
+    padding-top: 50px;
+    font-family: "Open Sans";
+    font-size: 200px;
+    color: #fff;
+    font-weight: 700;
+    float: right;
+    padding-top: 0px;
+
+}
+
+.otdel {
+    padding-top: 700px;
+}
+
+
+.vniz {
+    padding-top: 860px;
+
+}
+
+.vniz-mp {
+    padding-top: 700px;
+
+}
+
+.vniz-smol {
+    padding-top: 650px;
+
+}
+
+.vniz1 {
+    padding-top: 2550px;
+
+}
+
+.vniz1-smol {
+    padding-top: 2577px;
+
+}
+
+.vniz1-olen {
+    padding-top: 2540px;
+
+}
+
+vniz2-smol {
+    padding-top: 650px;
+
+}
+
+
+
+.vniz2 {
+    padding-top: 700px;
+
+}
+
+.vniz-marshruti {
+    padding-top: 550px;
+
+}
+
+.vniz3 {
+    padding-top: 600px;
+
+}
+
+.vniz3-smol {
+    padding-top: 400px;
+
+}
+
+.vniz4 {
+    padding-top: 200px;
+
+}
+
+#bg {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1920px 1080px;
+
+}
+
+#bg2 {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1920px 1080px;
+
+}
+
+#bg3 {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1920px 1080px;
+
+}
