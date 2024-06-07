@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:500' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans:700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans:300' rel='stylesheet'>
+    <title>Маршруты</title>
+    <link type="text/css" href="{% static 'diplomapp/css/styles.css' %}" rel="stylesheet" />
+    <link rel="shortcut icon" href="{% static 'diplomapp/images/logo.svg' %}" type="image/x-icon" />
+</head>
+<body>
+<div class="header-routes1">
+    <div class="container">
+        <div class="header-line">
+            <div class="header-logo">
+                <a href="/"><img src="{% static 'diplomapp/images/logo.svg' %}"  alt="logo"></a>
+            </div>
+            <div class="nav">
+                <a class="nav-item" href="/routes">Маршруты</a>
+                <a class="nav-item" href="/hotels">Отели и гостиницы</a>
+                <a class="nav-item" href="/food">Еда</a>
+            </div>
+        </div>
+        <div class="text-marsh">
+            Маршруты
+        </div>
+        <div class="vniz-marshruti">
+            <div class="smolinfo">
+                <div class="text1112">
+                    <div class="long-text">
+                     Здесь вы найдёте множество захватывающих и неповторимых туристических маршрутов, представляющих богатую историю и природу Смоленской области. <br> </br>
+
+Вы можете открыть для себя великие легенды, загадочные места и красивые пейзажи этого уникального региона. У нас собраны наиболее популярные и интересные маршруты, которые помогут вам открыть новые грани области и расширить свои горизонты. <br> </br>
+
+Мы тщательно отобрали разнообразные маршруты для любителей приключений, гурманов, историков и природолюбов. У вас будет возможность посетить величественные замки, загадочные пещеры, живописные озера и реки, а также прогуляться по древним городам и сельским пейзажам. Каждый маршрут сопровождается подробным описанием, картами, фотографиями и рекомендациями, чтобы помочь вам спланировать своё путешествие наилучшим образом. <br> </br>
+
+Наши маршруты представлены в различных категориях, включая исторические памятники, природные достопримечательности, культурные события и места для активного отдыха. Мы также предлагаем вам возможность скачать информацию о маршрутах в удобном формате для офлайн использования. <br> </br>
+
+Не упустите шанс отправиться в увлекательное приключение и познакомиться с прекрасными местами Смоленской области. Мы уверены, что наши маршруты подарят вам незабываемые впечатления и помогут вам полностью ощутить всю прелесть этого уникального региона. <br> </br>
+
+Чтобы начать приключение, выберите интересующий вас маршрут из нашего каталога и погрузитесь в мир открытий и впечатлений вместе с нами!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="marsh1">
+            <div class="routes-image">
+                <img src="{% static 'diplomapp/images/smol.png' %}" alt="routeimage">
+            </div>
+            <div class="text-routes">
+                Смоленск
+            </div>
+            <div class="route-info">
+                    <div class="text55">
+                        Маршрут «Успенский собор — Восточный участок крепостной стены —
+                        Авраамиевский монастырь — Дом с часами — Памятник-олень» предлагает уникальную возможность познакомиться с богатым историческим наследием и красотами этого района…
+                    </div>
+            </div>
+            <div class="btn">
+                <a href="/route-smolensk" class="button">Подробнее</a>
+            </div>
+        </div>
+        <div class="marsh2">
+            <div class="routes-image1">
+                <img src="{% static 'diplomapp/images/картинка_глинки.png' %}" alt="routeimage">
+            </div>
+            <div class="textandinfo">
+                <div class="text-routes1">
+                    Усадьба Глинки
+                </div>
+                <div class="route-info">
+                        <div class="text55">
+                           Маршрут «Усадьба Глинки — Приусадебный парк и дуб-исполин — Спасо-Преображенская церковь» предлагает незабываемое путешествие через исторические и природные достопримечательности…
+                        </div>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="/route-glinka" class="button">Подробнее</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<footer class="footer-image">
+    <div class="icons-footer">
+        <div class="vk">
+            <a href="https://vk.com/zhenshensyka"><img src="{% static 'diplomapp/images/vk.png' %}"  alt="logo"></a>
+        </div>
+        <div class="tg">
+            <a href="https://t.me/+79299083418"><img src="{% static 'diplomapp/images/tg.png' %}"  alt="logo"></a>
+        </div>
+        <div class="inst">
+            <a href="https://www.instagram.com/sanchous_o?igsh=ZWd4c3g0OWdqYmh6&utm_source=qr"><img src="{% static 'diplomapp/images/inst.png' %}"  alt="logo"></a>
+        </div>
+    </div>
+</footer>
+</html>
